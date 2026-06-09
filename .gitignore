@@ -1,0 +1,26 @@
+# Python virtual environments (never commit these)
+tf_env/
+venv/
+.venv/
+
+# Python caches / compiled
+__pycache__/
+*.py[cod]
+*.so
+
+# Large data / model artifacts that exceed GitHub's 100MB file limit
+*.npy
+*.npz
+glove.6B.100d.zip
+glove.*.zip
+
+# Generated vector DB
+**/medical_db/
+chroma.sqlite3
+**/chroma.sqlite3
+
+# OS / editor / office temp files
+.DS_Store
+Thumbs.db
+~$*
+.ipynb_checkpoints/

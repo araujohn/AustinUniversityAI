@@ -1,0 +1,5 @@
+,Gradient Boosting tuned with oversampled data,AdaBoost tuned with oversampled data,Random forest tuned with undersampled data
+Accuracy,0.728885,0.726850,0.730775
+Recall,0.816935,0.810840,0.814758
+Precision,0.785640,0.786695,0.788997
+F1,0.800982,0.798585,0.801671
